@@ -49,8 +49,6 @@ var CUSTOM_PARAMETERS = {
         var prevInnerWidth = -1;
         var prevInnerHeight = -1;
         
-        buttonHeight = 42;
-        
         
         buttonHeight = 42;
         
@@ -1013,7 +1011,7 @@ Module["locateFile"] = function(path, scriptDirectory)
     // dmengine*.wasm is hardcoded in the built JS loader for WASM,
     // we need to replace it here with the correct project name.
     if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
-        path = "Slasherprototype.wasm";
+        path = "Witcher25d.wasm";
     }
     return scriptDirectory + path;
 };
